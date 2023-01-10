@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  Zeus
+
+  Created by Priyanshu Verma on 07/01/23.
+  
+*/
+
+// Categories
+"business" = "व्यवसाय";
+"entertainment" = "मनोरंजन";
+"general" = "सामान्य";
+"health" = "स्वास्थ्य";
+"science" = "विज्ञान";
+"sports" = "खेल";
+"technology" = "तकनीकी";
+
+"top_headlines" = "शीर्ष सुर्खियाँ";
+"search" = "खोज";
+"search_example" = "जैसे: नववर्ष";
+"select_a_category" = "एक श्रेणी चुनें";
+"apply_filter" = "फिल्टर लागू करें";
+"select_sources" = "स्रोत का चयन करें";
+
+"map" = "नक्शा";
+"no_results_found" = "कोई नतीजा नहीं मिला";
+"no_internet_connection" = "कोई इंटरनेट कनेक्शन नहीं";
+"categories" = "श्रेणियाँ";
+"source" = "स्रोत";
+
+"local_news_page_title" = "के लिए सुर्खियां";

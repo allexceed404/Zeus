@@ -6,14 +6,41 @@
 //
 
 import UIKit
+import GoogleMaps
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var windowScene: UIWindowScene?
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        print(String(localized: "top_headlines"))
+        GMSServices.provideAPIKey(Secrets.GMSapiKey.rawValue)
+        
+        if #available(iOS 13.0, *) {
+
+        }
+        else {
+            window = UIWindow(frame: UIScreen.main.bounds)
+            window?.rootViewController = TabBarController()
+            window?.makeKeyAndVisible()
+        }
+        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        window?.windowScene = windowScene
+//        print(UIScreen.main.bounds)
+//
+////        NetworkMonitor.shared.newtorkStatusHandlerDelegate = self
+//        NetworkMonitor.shared.startMonitoring()
+//
+//        let navigationController = NavigationController(rootViewController: TabBarController())
+//        navigationController.navigationBar.isHidden = true
+//        window?.rootViewController = navigationController
+//
+//        window?.makeKeyAndVisible()
+        
         return true
     }
 
@@ -26,11 +53,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
+//        NetworkMonitor.shared.stopMonitoring()
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
 }
 

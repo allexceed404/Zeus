@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1728009E1FF82441F677E2D5 /* Pods_Zeus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DF6676700D6538081E13C5 /* Pods_Zeus.framework */; };
 		49182D7D295D946E00BD9F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182D7C295D946E00BD9F72 /* AppDelegate.swift */; };
 		49182D7F295D946E00BD9F72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182D7E295D946E00BD9F72 /* SceneDelegate.swift */; };
-		49182D81295D946E00BD9F72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182D80295D946E00BD9F72 /* ViewController.swift */; };
-		49182D84295D946E00BD9F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49182D82295D946E00BD9F72 /* Main.storyboard */; };
 		49182D86295D947000BD9F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49182D85295D947000BD9F72 /* Assets.xcassets */; };
 		49182D89295D947000BD9F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49182D87295D947000BD9F72 /* LaunchScreen.storyboard */; };
 		49182D94295D947000BD9F72 /* ZeusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182D93295D947000BD9F72 /* ZeusTests.swift */; };
 		49182D9E295D947000BD9F72 /* ZeusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182D9D295D947000BD9F72 /* ZeusUITests.swift */; };
 		49182DA0295D947000BD9F72 /* ZeusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182D9F295D947000BD9F72 /* ZeusUITestsLaunchTests.swift */; };
+		49182DAD295D9A0100BD9F72 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DAC295D9A0100BD9F72 /* TabBarController.swift */; };
+		49182DAF295DAA2800BD9F72 /* TopNewsPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DAE295DAA2800BD9F72 /* TopNewsPageController.swift */; };
+		49182DB1295DAA5B00BD9F72 /* MapPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DB0295DAA5B00BD9F72 /* MapPageController.swift */; };
+		49182DB3295DAA7300BD9F72 /* SearchPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DB2295DAA7300BD9F72 /* SearchPageController.swift */; };
+		49182DB7295DAEBA00BD9F72 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DB6295DAEBA00BD9F72 /* TableViewController.swift */; };
+		49182DB9295DB41D00BD9F72 /* NewsPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DB8295DB41D00BD9F72 /* NewsPreviewCell.swift */; };
+		49182DBB295EAA3C00BD9F72 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DBA295EAA3C00BD9F72 /* Networking.swift */; };
+		49182DBD295EC67700BD9F72 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DBC295EC67700BD9F72 /* NavigationController.swift */; };
+		49182DBF295ED20700BD9F72 /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DBE295ED20700BD9F72 /* APIResult.swift */; };
+		49182DC1295ED25700BD9F72 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DC0295ED25700BD9F72 /* Articles.swift */; };
+		49182DC3295F1D7500BD9F72 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DC2295F1D7500BD9F72 /* WebView.swift */; };
+		49182DC52962B39800BD9F72 /* FilterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DC42962B39800BD9F72 /* FilterPage.swift */; };
+		49182DC92962DED100BD9F72 /* CategoryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DC82962DED100BD9F72 /* CategoryListTableViewController.swift */; };
+		49182DCB2962E6F700BD9F72 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DCA2962E6F700BD9F72 /* CategoryCell.swift */; };
+		49182DCF29640C4000BD9F72 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DCE29640C4000BD9F72 /* NewsView.swift */; };
+		49182DD529641EDC00BD9F72 /* HeadlinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182DD429641EDC00BD9F72 /* HeadlinesViewController.swift */; };
+		4934845129683BAC00674F19 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934845029683BAC00674F19 /* Secrets.swift */; };
+		49348458296857E800674F19 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49348457296857E800674F19 /* LoadingScreen.swift */; };
+		4934845A2968591600674F19 /* NoResultsFound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493484592968591600674F19 /* NoResultsFound.swift */; };
+		4934845C29699E9D00674F19 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934845B29699E9D00674F19 /* NetworkMonitor.swift */; };
+		493484632969AF3B00674F19 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 493484652969AF3B00674F19 /* Localizable.strings */; };
+		49348468296BD75D00674F19 /* NoInternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49348467296BD75D00674F19 /* NoInternetConnection.swift */; };
+		4934846A296C71DB00674F19 /* Sources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49348469296C71DB00674F19 /* Sources.swift */; };
+		4934846C296C7F1300674F19 /* SourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934846B296C7F1300674F19 /* SourcesView.swift */; };
+		4934846E296C842F00674F19 /* SearchPageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934846D296C842F00674F19 /* SearchPageFilter.swift */; };
+		49348470296D7D6400674F19 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934846F296D7D6400674F19 /* UtilityClass.swift */; };
+		49EC38FD2965855F000A3F1E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC38FC2965855F000A3F1E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +65,6 @@
 		49182D79295D946E00BD9F72 /* Zeus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49182D7C295D946E00BD9F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49182D7E295D946E00BD9F72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		49182D80295D946E00BD9F72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		49182D83295D946E00BD9F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49182D85295D947000BD9F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49182D88295D947000BD9F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49182D8A295D947000BD9F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +73,37 @@
 		49182D99295D947000BD9F72 /* ZeusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49182D9D295D947000BD9F72 /* ZeusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusUITests.swift; sourceTree = "<group>"; };
 		49182D9F295D947000BD9F72 /* ZeusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49182DAC295D9A0100BD9F72 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		49182DAE295DAA2800BD9F72 /* TopNewsPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNewsPageController.swift; sourceTree = "<group>"; };
+		49182DB0295DAA5B00BD9F72 /* MapPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPageController.swift; sourceTree = "<group>"; };
+		49182DB2295DAA7300BD9F72 /* SearchPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageController.swift; sourceTree = "<group>"; };
+		49182DB6295DAEBA00BD9F72 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		49182DB8295DB41D00BD9F72 /* NewsPreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPreviewCell.swift; sourceTree = "<group>"; };
+		49182DBA295EAA3C00BD9F72 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		49182DBC295EC67700BD9F72 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		49182DBE295ED20700BD9F72 /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
+		49182DC0295ED25700BD9F72 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		49182DC2295F1D7500BD9F72 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		49182DC42962B39800BD9F72 /* FilterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPage.swift; sourceTree = "<group>"; };
+		49182DC82962DED100BD9F72 /* CategoryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListTableViewController.swift; sourceTree = "<group>"; };
+		49182DCA2962E6F700BD9F72 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		49182DCE29640C4000BD9F72 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		49182DD429641EDC00BD9F72 /* HeadlinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesViewController.swift; sourceTree = "<group>"; };
+		4934845029683BAC00674F19 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		49348457296857E800674F19 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		493484592968591600674F19 /* NoResultsFound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoResultsFound.swift; path = Zeus/View/NoResultsFound.swift; sourceTree = SOURCE_ROOT; };
+		4934845B29699E9D00674F19 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		493484642969AF3B00674F19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		493484662969AF6A00674F19 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		49348467296BD75D00674F19 /* NoInternetConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetConnection.swift; sourceTree = "<group>"; };
+		49348469296C71DB00674F19 /* Sources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources.swift; sourceTree = "<group>"; };
+		4934846B296C7F1300674F19 /* SourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SourcesView.swift; path = Zeus/View/SourcesView.swift; sourceTree = SOURCE_ROOT; };
+		4934846D296C842F00674F19 /* SearchPageFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageFilter.swift; sourceTree = "<group>"; };
+		4934846F296D7D6400674F19 /* UtilityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityClass.swift; sourceTree = "<group>"; };
+		49EC38FC2965855F000A3F1E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		60919F07907C6D8048562E8F /* Pods-Zeus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeus.release.xcconfig"; path = "Target Support Files/Pods-Zeus/Pods-Zeus.release.xcconfig"; sourceTree = "<group>"; };
+		87DF6676700D6538081E13C5 /* Pods_Zeus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC4E78697F283CA62378E9C /* Pods-Zeus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeus.debug.xcconfig"; path = "Target Support Files/Pods-Zeus/Pods-Zeus.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1728009E1FF82441F677E2D5 /* Pods_Zeus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +132,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0536135A5D789821330F9767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87DF6676700D6538081E13C5 /* Pods_Zeus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		49182D70295D946E00BD9F72 = {
 			isa = PBXGroup;
 			children = (
+				0536135A5D789821330F9767 /* Frameworks */,
+				627F0F541717DA6CC59B4769 /* Pods */,
+				49182D7A295D946E00BD9F72 /* Products */,
 				49182D7B295D946E00BD9F72 /* Zeus */,
 				49182D92295D947000BD9F72 /* ZeusTests */,
 				49182D9C295D947000BD9F72 /* ZeusUITests */,
-				49182D7A295D946E00BD9F72 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +165,16 @@
 		49182D7B295D946E00BD9F72 /* Zeus */ = {
 			isa = PBXGroup;
 			children = (
+				49182D8A295D947000BD9F72 /* Info.plist */,
 				49182D7C295D946E00BD9F72 /* AppDelegate.swift */,
 				49182D7E295D946E00BD9F72 /* SceneDelegate.swift */,
-				49182D80295D946E00BD9F72 /* ViewController.swift */,
-				49182D82295D946E00BD9F72 /* Main.storyboard */,
 				49182D85295D947000BD9F72 /* Assets.xcassets */,
+				493484652969AF3B00674F19 /* Localizable.strings */,
+				49EC3901296589C9000A3F1E /* Controller */,
 				49182D87295D947000BD9F72 /* LaunchScreen.storyboard */,
-				49182D8A295D947000BD9F72 /* Info.plist */,
+				49EC38FE296589AC000A3F1E /* Model */,
+				49EC38FF296589B9000A3F1E /* View */,
+				4934845029683BAC00674F19 /* Secrets.swift */,
 			);
 			path = Zeus;
 			sourceTree = "<group>";
@@ -127,6 +196,61 @@
 			path = ZeusUITests;
 			sourceTree = "<group>";
 		};
+		49EC38FE296589AC000A3F1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49182DBE295ED20700BD9F72 /* APIResult.swift */,
+				49182DC0295ED25700BD9F72 /* Articles.swift */,
+				4934846F296D7D6400674F19 /* UtilityClass.swift */,
+				49348469296C71DB00674F19 /* Sources.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49EC38FF296589B9000A3F1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				493484592968591600674F19 /* NoResultsFound.swift */,
+				49182DCA2962E6F700BD9F72 /* CategoryCell.swift */,
+				49348457296857E800674F19 /* LoadingScreen.swift */,
+				4934846B296C7F1300674F19 /* SourcesView.swift */,
+				4934846D296C842F00674F19 /* SearchPageFilter.swift */,
+				49182DC42962B39800BD9F72 /* FilterPage.swift */,
+				49EC38FC2965855F000A3F1E /* MapView.swift */,
+				49348467296BD75D00674F19 /* NoInternetConnection.swift */,
+				49182DB8295DB41D00BD9F72 /* NewsPreviewCell.swift */,
+				49182DCE29640C4000BD9F72 /* NewsView.swift */,
+				49182DC2295F1D7500BD9F72 /* WebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49EC3901296589C9000A3F1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49182DC82962DED100BD9F72 /* CategoryListTableViewController.swift */,
+				49182DD429641EDC00BD9F72 /* HeadlinesViewController.swift */,
+				49182DB0295DAA5B00BD9F72 /* MapPageController.swift */,
+				49182DBC295EC67700BD9F72 /* NavigationController.swift */,
+				49182DBA295EAA3C00BD9F72 /* Networking.swift */,
+				4934845B29699E9D00674F19 /* NetworkMonitor.swift */,
+				49182DB2295DAA7300BD9F72 /* SearchPageController.swift */,
+				49182DAC295D9A0100BD9F72 /* TabBarController.swift */,
+				49182DB6295DAEBA00BD9F72 /* TableViewController.swift */,
+				49182DAE295DAA2800BD9F72 /* TopNewsPageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		627F0F541717DA6CC59B4769 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DC4E78697F283CA62378E9C /* Pods-Zeus.debug.xcconfig */,
+				60919F07907C6D8048562E8F /* Pods-Zeus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49182DA3295D947000BD9F72 /* Build configuration list for PBXNativeTarget "Zeus" */;
 			buildPhases = (
+				5EA955BBB8F52EC8766F73E5 /* [CP] Check Pods Manifest.lock */,
 				49182D75295D946E00BD9F72 /* Sources */,
 				49182D76295D946E00BD9F72 /* Frameworks */,
 				49182D77295D946E00BD9F72 /* Resources */,
+				A8665B8FE3C148AB77D33344 /* [CP] Embed Pods Frameworks */,
+				98D741901DBF1E5BF0C185C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +340,7 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
 			);
 			mainGroup = 49182D70295D946E00BD9F72;
 			productRefGroup = 49182D7A295D946E00BD9F72 /* Products */;
@@ -232,8 +360,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49182D89295D947000BD9F72 /* LaunchScreen.storyboard in Resources */,
+				493484632969AF3B00674F19 /* Localizable.strings in Resources */,
 				49182D86295D947000BD9F72 /* Assets.xcassets in Resources */,
-				49182D84295D946E00BD9F72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +381,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EA955BBB8F52EC8766F73E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zeus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98D741901DBF1E5BF0C185C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeus/Pods-Zeus-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeus/Pods-Zeus-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zeus/Pods-Zeus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8665B8FE3C148AB77D33344 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeus/Pods-Zeus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeus/Pods-Zeus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zeus/Pods-Zeus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49182D75295D946E00BD9F72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49182D81295D946E00BD9F72 /* ViewController.swift in Sources */,
+				49348458296857E800674F19 /* LoadingScreen.swift in Sources */,
+				49182DBD295EC67700BD9F72 /* NavigationController.swift in Sources */,
+				49182DAF295DAA2800BD9F72 /* TopNewsPageController.swift in Sources */,
+				49182DC1295ED25700BD9F72 /* Articles.swift in Sources */,
+				49EC38FD2965855F000A3F1E /* MapView.swift in Sources */,
+				49182DC52962B39800BD9F72 /* FilterPage.swift in Sources */,
+				49182DCB2962E6F700BD9F72 /* CategoryCell.swift in Sources */,
+				4934846A296C71DB00674F19 /* Sources.swift in Sources */,
+				49182DD529641EDC00BD9F72 /* HeadlinesViewController.swift in Sources */,
+				4934845C29699E9D00674F19 /* NetworkMonitor.swift in Sources */,
+				49182DBB295EAA3C00BD9F72 /* Networking.swift in Sources */,
+				4934846E296C842F00674F19 /* SearchPageFilter.swift in Sources */,
+				49182DBF295ED20700BD9F72 /* APIResult.swift in Sources */,
+				49182DCF29640C4000BD9F72 /* NewsView.swift in Sources */,
+				49182DB9295DB41D00BD9F72 /* NewsPreviewCell.swift in Sources */,
+				49182DAD295D9A0100BD9F72 /* TabBarController.swift in Sources */,
+				4934845A2968591600674F19 /* NoResultsFound.swift in Sources */,
+				49182DB1295DAA5B00BD9F72 /* MapPageController.swift in Sources */,
+				49182DB7295DAEBA00BD9F72 /* TableViewController.swift in Sources */,
+				49348470296D7D6400674F19 /* UtilityClass.swift in Sources */,
 				49182D7D295D946E00BD9F72 /* AppDelegate.swift in Sources */,
+				4934846C296C7F1300674F19 /* SourcesView.swift in Sources */,
+				49182DC92962DED100BD9F72 /* CategoryListTableViewController.swift in Sources */,
+				49348468296BD75D00674F19 /* NoInternetConnection.swift in Sources */,
 				49182D7F295D946E00BD9F72 /* SceneDelegate.swift in Sources */,
+				4934845129683BAC00674F19 /* Secrets.swift in Sources */,
+				49182DB3295DAA7300BD9F72 /* SearchPageController.swift in Sources */,
+				49182DC3295F1D7500BD9F72 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +509,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		49182D82295D946E00BD9F72 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49182D83295D946E00BD9F72 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		49182D87295D947000BD9F72 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				49182D88295D947000BD9F72 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		493484652969AF3B00674F19 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				493484642969AF3B00674F19 /* en */,
+				493484662969AF6A00674F19 /* hi */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -380,6 +594,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -432,16 +647,17 @@
 		};
 		49182DA4295D947000BD9F72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC4E78697F283CA62378E9C /* Pods-Zeus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZMG2479Q5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Zeus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,16 +675,17 @@
 		};
 		49182DA5295D947000BD9F72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60919F07907C6D8048562E8F /* Pods-Zeus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZMG2479Q5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Zeus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

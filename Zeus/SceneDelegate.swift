@@ -6,20 +6,35 @@
 //
 
 import UIKit
+import Network
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
     var window: UIWindow?
-
+    let navigationController = NavigationController(rootViewController: TabBarController())
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        self.window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene = windowScene
+
+//        NetworkMonitor.shared.newtorkStatusHandlerDelegate = self
+        NetworkMonitor.shared.startMonitoring()
+
+        let navigationController = NavigationController(rootViewController: TabBarController())
+        navigationController.navigationBar.isHidden = true
+        window?.rootViewController = navigationController
+
+        window?.makeKeyAndVisible()
+
+        if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+            appDelegate.window = window
+        }
+
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
+        NetworkMonitor.shared.stopMonitoring()
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
         // Release any resources associated with this scene that can be re-created the next time the scene connects.
@@ -50,3 +65,23 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
+//private typealias InternetConnectionCheck = SceneDelegate
+//extension InternetConnectionCheck: NetworkStatusHandler {
+//    func passNetworkStatus(status: NWPath.Status) {
+//        print(status)
+//        DispatchQueue.main.async {
+//            if(status == .satisfied) {
+//                self.window?.rootViewController = self.navigationController
+//                self.window?.makeKeyAndVisible()
+//            } else {
+//                let noInternetScreen: NoResultsFound = {
+//                    let view = NoResultsFound()
+//                    view.setLabelText(toText: "No Internet Connection")
+//                    return view
+//                }()
+//                self.window?.rootViewController = noInternetScreen
+//                self.window?.makeKeyAndVisible()
+//            }
+//        }
+//    }
+//}

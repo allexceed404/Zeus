@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+			productName = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1C4971A42B1D196115B6DBF5E1633AC6 /* Disk+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36556813D4D37338A114D8CECA1EE3CA /* Disk+UIImage.swift */; };
+		3E57BFCA6A57838E1C8EC815F4B623AA /* Disk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B301AB9C09A385A145452BF02CF7F485 /* Disk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		485F465F33A260672AED470552FBB5CC /* Disk+Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ECAB3B92075698F148D32F0D4E2338 /* Disk+Errors.swift */; };
+		49E3E058EAAD998C175E3D71828C3672 /* Pods-Zeus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B7E19F087C8B7B090ABC28FC9FFD81 /* Pods-Zeus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F07FC66607106E7DF453058BE3E609B /* Disk+InternalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED39E82D6646B042F9C6418F85E785 /* Disk+InternalHelpers.swift */; };
+		75F99571650945932E64FA9B5359276B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8DAA4EDB4616186802D93AD8249F8535 /* Disk+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B2170DFC73E0EC95BDF687C3A2919 /* Disk+Data.swift */; };
+		9D08A776A69689862F17921F2420DBD9 /* Disk+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D19E5A931354CA34AA797D6FF890C /* Disk+Helpers.swift */; };
+		ADF68B649F3F5748D814411688D3D0AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C5CB6A8AC2490910775E07425EA199F3 /* Pods-Zeus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 703F91D428928F8879185D0A6483626B /* Pods-Zeus-dummy.m */; };
+		D322C2384E60BF3455417C66BF34B9E5 /* Disk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A03E7E3B686B75F44C4BF2A43851A6 /* Disk.swift */; };
+		D6D6546D9B5FD1DB24E9418E8F01747E /* Disk.h in Headers */ = {isa = PBXBuildFile; fileRef = BE19FE570EE798DEB43DEDA700429574 /* Disk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D82EA913E947FB03A40365BB5F39AF92 /* Disk+VolumeInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E7F0DD7C7FE220EEA7B95C53EEDE7D /* Disk+VolumeInformation.swift */; };
+		DD2131EE2F628704F3C5DC22C9DE8AF9 /* Disk+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CF4805E816D38C78474D04A24E023E /* Disk+Codable.swift */; };
+		EA132850940978905CE39CA0D8ECC399 /* Disk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E97AF9F7A2929613B92552271F12FEA /* Disk-dummy.m */; };
+		EBAA688B42F67EA3D7F3D7D24C395B3A /* Disk+[UIImage].swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EEAF4FBFFE02D81449CE2FA2A10E76 /* Disk+[UIImage].swift */; };
+		FEC0CF90BEA70B1F32628372A920B34C /* Disk+[Data].swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE4817A9533DC6AA9781E4AEDD7E7A9 /* Disk+[Data].swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12304F5E180D5A940A182C26420685D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		6962DC3C99153345289480638D71B5F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914C00A85014D51C5BD9DC8C6E07C79F;
+			remoteInfo = Disk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006D19E5A931354CA34AA797D6FF890C /* Disk+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Disk+Helpers.swift"; path = "Sources/Disk+Helpers.swift"; sourceTree = "<group>"; };
+		05B9F4CD9A08E785017E0F2B414CD7FD /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		0726CAB80875D3617F18C1EBEDF6290D /* Pods-Zeus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zeus.debug.xcconfig"; sourceTree = "<group>"; };
+		07ECAB3B92075698F148D32F0D4E2338 /* Disk+Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Disk+Errors.swift"; path = "Sources/Disk+Errors.swift"; sourceTree = "<group>"; };
+		12401A582BC9A17FF12CA8C742653459 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		133440A2F89DF42AFA66959B60604D87 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		31EEAF4FBFFE02D81449CE2FA2A10E76 /* Disk+[UIImage].swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Disk+[UIImage].swift"; path = "Sources/Disk+[UIImage].swift"; sourceTree = "<group>"; };
+		33E7F0DD7C7FE220EEA7B95C53EEDE7D /* Disk+VolumeInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Disk+VolumeInformation.swift"; path = "Sources/Disk+VolumeInformation.swift"; sourceTree = "<group>"; };
+		36556813D4D37338A114D8CECA1EE3CA /* Disk+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Disk+UIImage.swift"; path = "Sources/Disk+UIImage.swift"; sourceTree = "<group>"; };
+		36A03E7E3B686B75F44C4BF2A43851A6 /* Disk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disk.swift; path = Sources/Disk.swift; sourceTree = "<group>"; };
+		4C01768430B63A43C8E24B50A40233B6 /* Disk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Disk-prefix.pch"; sourceTree = "<group>"; };
+		4C793D54C4831C4C54008E90AAEA5820 /* Pods-Zeus-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zeus-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51B7E19F087C8B7B090ABC28FC9FFD81 /* Pods-Zeus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zeus-umbrella.h"; sourceTree = "<group>"; };
+		51F2FB3229137CBD6C753B8387752435 /* Disk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Disk.debug.xcconfig; sourceTree = "<group>"; };
+		564B2170DFC73E0EC95BDF687C3A2919 /* Disk+Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Disk+Data.swift"; path = "Sources/Disk+Data.swift"; sourceTree = "<group>"; };
+		66938D6CF6DE79815A8E1B6D61D5486A /* Disk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Disk; path = Disk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E97AF9F7A2929613B92552271F12FEA /* Disk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Disk-dummy.m"; sourceTree = "<group>"; };
+		703F91D428928F8879185D0A6483626B /* Pods-Zeus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zeus-dummy.m"; sourceTree = "<group>"; };
+		72CF4805E816D38C78474D04A24E023E /* Disk+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Disk+Codable.swift"; path = "Sources/Disk+Codable.swift"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AB74C82242A1992CD9157D0FBE336A4 /* Pods-Zeus */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Zeus"; path = Pods_Zeus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F458A692AE118DE1EF6DAAEC77B63AA /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		80425E227D9CCFFECB6207E51FA990FA /* Pods-Zeus-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zeus-frameworks.sh"; sourceTree = "<group>"; };
+		8CB4D5B550F9D7574159482A778A4595 /* Pods-Zeus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zeus.modulemap"; sourceTree = "<group>"; };
+		8F37580EFD50B10AB8EE6BAED0C7B8C4 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		9536E9A89CB9D3B19AD995291B7147F2 /* Pods-Zeus-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zeus-resources.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A24C93EA90C772B61E281EEEBD04BCC2 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		A2CEB81EFCB146DEAC5A7C3004E5890E /* Disk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Disk-Info.plist"; sourceTree = "<group>"; };
+		AFE4817A9533DC6AA9781E4AEDD7E7A9 /* Disk+[Data].swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Disk+[Data].swift"; path = "Sources/Disk+[Data].swift"; sourceTree = "<group>"; };
+		B2E0BC66F257BEE87EBDA9B1418D7187 /* Pods-Zeus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zeus-acknowledgements.plist"; sourceTree = "<group>"; };
+		B301AB9C09A385A145452BF02CF7F485 /* Disk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Disk-umbrella.h"; sourceTree = "<group>"; };
+		B96299F5AE74475A2DA1CF03077194B0 /* Pods-Zeus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zeus-Info.plist"; sourceTree = "<group>"; };
+		BE19FE570EE798DEB43DEDA700429574 /* Disk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Disk.h; path = Sources/Disk.h; sourceTree = "<group>"; };
+		C0ED39E82D6646B042F9C6418F85E785 /* Disk+InternalHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Disk+InternalHelpers.swift"; path = "Sources/Disk+InternalHelpers.swift"; sourceTree = "<group>"; };
+		DE8E059D345A5D9C51F23733709A5807 /* Disk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Disk.release.xcconfig; sourceTree = "<group>"; };
+		DEB878FA7D88A48F571425994006EB47 /* Pods-Zeus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zeus.release.xcconfig"; sourceTree = "<group>"; };
+		F95EB83FE57F6EC257BDB9F9F6F7FE32 /* Disk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Disk.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D9D5D5745F39018CE58F65FFEF988C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF68B649F3F5748D814411688D3D0AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FDE62E8B7EF9A10B7AE720FC0711A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F99571650945932E64FA9B5359276B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B74776B3EB66F2AD659868C2C8FA5FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F95EB83FE57F6EC257BDB9F9F6F7FE32 /* Disk.modulemap */,
+				6E97AF9F7A2929613B92552271F12FEA /* Disk-dummy.m */,
+				A2CEB81EFCB146DEAC5A7C3004E5890E /* Disk-Info.plist */,
+				4C01768430B63A43C8E24B50A40233B6 /* Disk-prefix.pch */,
+				B301AB9C09A385A145452BF02CF7F485 /* Disk-umbrella.h */,
+				51F2FB3229137CBD6C753B8387752435 /* Disk.debug.xcconfig */,
+				DE8E059D345A5D9C51F23733709A5807 /* Disk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Disk";
+			sourceTree = "<group>";
+		};
+		2CF379BE640E2ECD38E054CFB53EE560 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F37580EFD50B10AB8EE6BAED0C7B8C4 /* GoogleMaps.debug.xcconfig */,
+				133440A2F89DF42AFA66959B60604D87 /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		3CEC0D9B7F2ED4E3B9FA177216462972 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7F32C38ED5DD5C570AC08F666E2017AA /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		4151CF7E922534E2D6D040BEEDD0178D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A24C93EA90C772B61E281EEEBD04BCC2 /* GoogleMaps.framework */,
+				12401A582BC9A17FF12CA8C742653459 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7F32C38ED5DD5C570AC08F666E2017AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F458A692AE118DE1EF6DAAEC77B63AA /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91E7B8386EBF968854B5A897456E8B86 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				4151CF7E922534E2D6D040BEEDD0178D /* Frameworks */,
+				ED037A028333892DF91993E9929CE97E /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		99AEB0A6603603A97C5545FBA16E6AC8 /* Disk */ = {
+			isa = PBXGroup;
+			children = (
+				BE19FE570EE798DEB43DEDA700429574 /* Disk.h */,
+				36A03E7E3B686B75F44C4BF2A43851A6 /* Disk.swift */,
+				AFE4817A9533DC6AA9781E4AEDD7E7A9 /* Disk+[Data].swift */,
+				31EEAF4FBFFE02D81449CE2FA2A10E76 /* Disk+[UIImage].swift */,
+				72CF4805E816D38C78474D04A24E023E /* Disk+Codable.swift */,
+				564B2170DFC73E0EC95BDF687C3A2919 /* Disk+Data.swift */,
+				07ECAB3B92075698F148D32F0D4E2338 /* Disk+Errors.swift */,
+				006D19E5A931354CA34AA797D6FF890C /* Disk+Helpers.swift */,
+				C0ED39E82D6646B042F9C6418F85E785 /* Disk+InternalHelpers.swift */,
+				36556813D4D37338A114D8CECA1EE3CA /* Disk+UIImage.swift */,
+				33E7F0DD7C7FE220EEA7B95C53EEDE7D /* Disk+VolumeInformation.swift */,
+				2B74776B3EB66F2AD659868C2C8FA5FB /* Support Files */,
+			);
+			path = Disk;
+			sourceTree = "<group>";
+		};
+		9AE8C465FC87FE8CD604A4103044A1A2 /* Pods-Zeus */ = {
+			isa = PBXGroup;
+			children = (
+				8CB4D5B550F9D7574159482A778A4595 /* Pods-Zeus.modulemap */,
+				4C793D54C4831C4C54008E90AAEA5820 /* Pods-Zeus-acknowledgements.markdown */,
+				B2E0BC66F257BEE87EBDA9B1418D7187 /* Pods-Zeus-acknowledgements.plist */,
+				703F91D428928F8879185D0A6483626B /* Pods-Zeus-dummy.m */,
+				80425E227D9CCFFECB6207E51FA990FA /* Pods-Zeus-frameworks.sh */,
+				B96299F5AE74475A2DA1CF03077194B0 /* Pods-Zeus-Info.plist */,
+				9536E9A89CB9D3B19AD995291B7147F2 /* Pods-Zeus-resources.sh */,
+				51B7E19F087C8B7B090ABC28FC9FFD81 /* Pods-Zeus-umbrella.h */,
+				0726CAB80875D3617F18C1EBEDF6290D /* Pods-Zeus.debug.xcconfig */,
+				DEB878FA7D88A48F571425994006EB47 /* Pods-Zeus.release.xcconfig */,
+			);
+			name = "Pods-Zeus";
+			path = "Target Support Files/Pods-Zeus";
+			sourceTree = "<group>";
+		};
+		CDE8A5328530E324E70AFC76C4906446 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AE8C465FC87FE8CD604A4103044A1A2 /* Pods-Zeus */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E593C99D6CA06B26B2EF588A91AF9D9D /* Pods */,
+				D83B09C24AF8FFE2E7DC3E23C7BEAD55 /* Products */,
+				CDE8A5328530E324E70AFC76C4906446 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D83B09C24AF8FFE2E7DC3E23C7BEAD55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66938D6CF6DE79815A8E1B6D61D5486A /* Disk */,
+				7AB74C82242A1992CD9157D0FBE336A4 /* Pods-Zeus */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E593C99D6CA06B26B2EF588A91AF9D9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99AEB0A6603603A97C5545FBA16E6AC8 /* Disk */,
+				F04BDD8A029DD4E158311F6C5944B249 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED037A028333892DF91993E9929CE97E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05B9F4CD9A08E785017E0F2B414CD7FD /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F04BDD8A029DD4E158311F6C5944B249 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				3CEC0D9B7F2ED4E3B9FA177216462972 /* Base */,
+				91E7B8386EBF968854B5A897456E8B86 /* Maps */,
+				2CF379BE640E2ECD38E054CFB53EE560 /* Support Files */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DDA8D095B8F23399A549FFDE214EA7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6546D9B5FD1DB24E9418E8F01747E /* Disk.h in Headers */,
+				3E57BFCA6A57838E1C8EC815F4B623AA /* Disk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A250BD335EE4A9FC2EF62717AA9636C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E3E058EAAD998C175E3D71828C3672 /* Pods-Zeus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		914C00A85014D51C5BD9DC8C6E07C79F /* Disk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE09EEBC14288F111398492448E708E6 /* Build configuration list for PBXNativeTarget "Disk" */;
+			buildPhases = (
+				8DDA8D095B8F23399A549FFDE214EA7C /* Headers */,
+				B449D1E558676E1A6CA803618BE65029 /* Sources */,
+				5FDE62E8B7EF9A10B7AE720FC0711A81 /* Frameworks */,
+				F411586CDD4C4B947D1D5D52FC4D98A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Disk;
+			productName = Disk;
+			productReference = 66938D6CF6DE79815A8E1B6D61D5486A /* Disk */;
+			productType = "com.apple.product-type.framework";
+		};
+		C33B4383D291FF60B21EC58D51CE8D86 /* Pods-Zeus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CEFE84A5519DEAF3490BCCA47DC1BD /* Build configuration list for PBXNativeTarget "Pods-Zeus" */;
+			buildPhases = (
+				A250BD335EE4A9FC2EF62717AA9636C8 /* Headers */,
+				1A4A087544B54C98CA0A005F1EA00D90 /* Sources */,
+				04D9D5D5745F39018CE58F65FFEF988C /* Frameworks */,
+				60196D73BEEE952E12DBD41663754B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FC49168532CD6BBB1EDC04F8868E605 /* PBXTargetDependency */,
+				6F0AB2D7ED59F28B4D0CC706C909C31E /* PBXTargetDependency */,
+			);
+			name = "Pods-Zeus";
+			productName = Pods_Zeus;
+			productReference = 7AB74C82242A1992CD9157D0FBE336A4 /* Pods-Zeus */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D83B09C24AF8FFE2E7DC3E23C7BEAD55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914C00A85014D51C5BD9DC8C6E07C79F /* Disk */,
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				C33B4383D291FF60B21EC58D51CE8D86 /* Pods-Zeus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60196D73BEEE952E12DBD41663754B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F411586CDD4C4B947D1D5D52FC4D98A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A4A087544B54C98CA0A005F1EA00D90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CB6A8AC2490910775E07425EA199F3 /* Pods-Zeus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B449D1E558676E1A6CA803618BE65029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D322C2384E60BF3455417C66BF34B9E5 /* Disk.swift in Sources */,
+				FEC0CF90BEA70B1F32628372A920B34C /* Disk+[Data].swift in Sources */,
+				EBAA688B42F67EA3D7F3D7D24C395B3A /* Disk+[UIImage].swift in Sources */,
+				DD2131EE2F628704F3C5DC22C9DE8AF9 /* Disk+Codable.swift in Sources */,
+				8DAA4EDB4616186802D93AD8249F8535 /* Disk+Data.swift in Sources */,
+				485F465F33A260672AED470552FBB5CC /* Disk+Errors.swift in Sources */,
+				9D08A776A69689862F17921F2420DBD9 /* Disk+Helpers.swift in Sources */,
+				5F07FC66607106E7DF453058BE3E609B /* Disk+InternalHelpers.swift in Sources */,
+				1C4971A42B1D196115B6DBF5E1633AC6 /* Disk+UIImage.swift in Sources */,
+				D82EA913E947FB03A40365BB5F39AF92 /* Disk+VolumeInformation.swift in Sources */,
+				EA132850940978905CE39CA0D8ECC399 /* Disk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F0AB2D7ED59F28B4D0CC706C909C31E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 12304F5E180D5A940A182C26420685D0 /* PBXContainerItemProxy */;
+		};
+		8FC49168532CD6BBB1EDC04F8868E605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Disk;
+			target = 914C00A85014D51C5BD9DC8C6E07C79F /* Disk */;
+			targetProxy = 6962DC3C99153345289480638D71B5F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0657E6247C7E8744275AACEBAB511440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F37580EFD50B10AB8EE6BAED0C7B8C4 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E408DC11AF098DB48C5DBCCD7DBED84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0726CAB80875D3617F18C1EBEDF6290D /* Pods-Zeus.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zeus/Pods-Zeus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zeus/Pods-Zeus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54D367F20D5CAC7B96E846D9832E1D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB878FA7D88A48F571425994006EB47 /* Pods-Zeus.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zeus/Pods-Zeus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zeus/Pods-Zeus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98F5230E20051751C9D979C19A62A039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8E059D345A5D9C51F23733709A5807 /* Disk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Disk/Disk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Disk/Disk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Disk/Disk.modulemap";
+				PRODUCT_MODULE_NAME = Disk;
+				PRODUCT_NAME = Disk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E924FBFBBE5CC552C718C634C356E516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F2FB3229137CBD6C753B8387752435 /* Disk.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Disk/Disk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Disk/Disk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Disk/Disk.modulemap";
+				PRODUCT_MODULE_NAME = Disk;
+				PRODUCT_NAME = Disk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC690621027EA58B5D021A1004DD63B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133440A2F89DF42AFA66959B60604D87 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01CEFE84A5519DEAF3490BCCA47DC1BD /* Build configuration list for PBXNativeTarget "Pods-Zeus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E408DC11AF098DB48C5DBCCD7DBED84 /* Debug */,
+				54D367F20D5CAC7B96E846D9832E1D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0657E6247C7E8744275AACEBAB511440 /* Debug */,
+				EC690621027EA58B5D021A1004DD63B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE09EEBC14288F111398492448E708E6 /* Build configuration list for PBXNativeTarget "Disk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E924FBFBBE5CC552C718C634C356E516 /* Debug */,
+				98F5230E20051751C9D979C19A62A039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
