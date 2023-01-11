@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1728009E1FF82441F677E2D5 /* Pods_Zeus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DF6676700D6538081E13C5 /* Pods_Zeus.framework */; };
 		49182D7D295D946E00BD9F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182D7C295D946E00BD9F72 /* AppDelegate.swift */; };
-		49182D7F295D946E00BD9F72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182D7E295D946E00BD9F72 /* SceneDelegate.swift */; };
 		49182D86295D947000BD9F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49182D85295D947000BD9F72 /* Assets.xcassets */; };
 		49182D89295D947000BD9F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49182D87295D947000BD9F72 /* LaunchScreen.storyboard */; };
 		49182D94295D947000BD9F72 /* ZeusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49182D93295D947000BD9F72 /* ZeusTests.swift */; };
@@ -64,7 +63,6 @@
 /* Begin PBXFileReference section */
 		49182D79295D946E00BD9F72 /* Zeus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49182D7C295D946E00BD9F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49182D7E295D946E00BD9F72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		49182D85295D947000BD9F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49182D88295D947000BD9F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49182D8A295D947000BD9F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 			children = (
 				49182D8A295D947000BD9F72 /* Info.plist */,
 				49182D7C295D946E00BD9F72 /* AppDelegate.swift */,
-				49182D7E295D946E00BD9F72 /* SceneDelegate.swift */,
 				49182D85295D947000BD9F72 /* Assets.xcassets */,
 				493484652969AF3B00674F19 /* Localizable.strings */,
 				49EC3901296589C9000A3F1E /* Controller */,
@@ -469,7 +466,6 @@
 				4934846C296C7F1300674F19 /* SourcesView.swift in Sources */,
 				49182DC92962DED100BD9F72 /* CategoryListTableViewController.swift in Sources */,
 				49348468296BD75D00674F19 /* NoInternetConnection.swift in Sources */,
-				49182D7F295D946E00BD9F72 /* SceneDelegate.swift in Sources */,
 				4934845129683BAC00674F19 /* Secrets.swift in Sources */,
 				49182DB3295DAA7300BD9F72 /* SearchPageController.swift in Sources */,
 				49182DC3295F1D7500BD9F72 /* WebView.swift in Sources */,
@@ -580,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -635,7 +631,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
