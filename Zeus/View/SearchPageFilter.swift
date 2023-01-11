@@ -11,7 +11,7 @@ protocol PassingSourcesFilter {
     func passSourcesFilter(filterWith filter: String)
 }
 
-class SearchPageFilter: UIViewController {
+final class SearchPageFilter: UIViewController {
     private let titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -204,7 +204,7 @@ protocol PassingSelectedCategory {
     func passCategory(category: String)
 }
 
-class ModifiedCategoryTableView: CategoryListTableViewController {
+final class ModifiedCategoryTableView: CategoryListTableViewController {
     var categoryDelegate: PassingSelectedCategory?
     
     override func viewDidLoad() {

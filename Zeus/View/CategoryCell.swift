@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CategoryCell: UITableViewCell {
+final class CategoryCell: UITableViewCell {
 
     var optIn: Bool = false
     

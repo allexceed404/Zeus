@@ -15,7 +15,7 @@ protocol HandleNewsViewEvents {
     func showNoInternetScreen(_ shouldShow: Bool)
 }
 
-class NewsView: UITableViewController {
+final class NewsView: UITableViewController {
 
     private var articlesPerPage = 20
     private var currentPage = 1

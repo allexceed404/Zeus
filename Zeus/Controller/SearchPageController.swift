@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SearchPageController: UIViewController, PassingFilter {
+final class SearchPageController: UIViewController, PassingFilter {
     
     var viewTitle: UILabel = {
         let label = UILabel()

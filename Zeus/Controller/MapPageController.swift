@@ -8,7 +8,7 @@
 import UIKit
 import GoogleMaps
     
-class MapPageController: UIViewController {
+final class MapPageController: UIViewController {
 
     var mapView: MapView = {
         let map = MapView()
@@ -71,7 +71,7 @@ extension LoadingLocalNews: LocalNewsDelegate {
     }
 }
 
-class NewsBottomSheet: UIViewController {
+final class NewsBottomSheet: UIViewController {
     deinit {
         print("Deinit")
     }

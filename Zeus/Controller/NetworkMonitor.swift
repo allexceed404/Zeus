@@ -10,7 +10,7 @@ protocol NetworkStatusHandler {
     func passNetworkStatus(status: NWPath.Status)
 }
 
-class NetworkMonitor {
+final class NetworkMonitor {
     var newtorkStatusHandlerDelegate: NetworkStatusHandler?
     static let shared = NetworkMonitor()
 
