@@ -16,7 +16,7 @@ protocol LocalNewsDelegate {
     func showLocalNews(coordinate: CLLocationCoordinate2D, countryName: String, countryCode: String)
 }
 
-class MapView: UIViewController, CLLocationManagerDelegate {
+final class MapView: UIViewController, CLLocationManagerDelegate {
     
     
     var localNewsDelegate: LocalNewsDelegate?

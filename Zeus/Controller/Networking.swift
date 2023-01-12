@@ -15,7 +15,7 @@ enum UserError: Error {
     case NoInternetConnection
 }
 
-class Networking {
+final class Networking {
     static let sharedInstance = Networking()
     let session = URLSession.shared
     let networkMonitor = NetworkMonitor.shared

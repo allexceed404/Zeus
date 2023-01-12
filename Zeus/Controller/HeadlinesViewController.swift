@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HeadlinesViewController: UIViewController, PassingFilter {
+final class HeadlinesViewController: UIViewController, PassingFilter {
     
     var viewTitle: UILabel = {
         let label = UILabel()

@@ -16,7 +16,7 @@ protocol SettingCategoryCell {
     func setupCells(filter: Set<Int>)
 }
 
-class FilterPage: UIViewController {
+final class FilterPage: UIViewController {
     
     var filterDelegate: PassingFilter?
     var categoryCellDelegate: SettingCategoryCell?

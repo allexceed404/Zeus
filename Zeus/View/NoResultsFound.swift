@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NoResultsFound: UIViewController {
+final class NoResultsFound: UIViewController {
     private let noResultsFoundImage: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false

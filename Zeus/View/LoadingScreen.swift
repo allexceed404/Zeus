@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoadingScreen: UIViewController {
+final class LoadingScreen: UIViewController {
     private let imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false

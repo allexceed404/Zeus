@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SourcesView: TableViewController {
+final class SourcesView: TableViewController {
     private var sources: [SourceInfo] = [] {
         didSet {
             DispatchQueue.main.async {

@@ -11,7 +11,7 @@ protocol TryRefreshNews {
     func refreshNews()
 }
 
-class NoInternetConnection: UIViewController {
+final class NoInternetConnection: UIViewController {
     private let noInternetConnectionImage: UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
