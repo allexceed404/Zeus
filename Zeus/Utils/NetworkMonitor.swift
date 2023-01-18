@@ -24,13 +24,10 @@ final class NetworkMonitor {
             self?.status = path.status
             self?.isReachableOnCellular = path.isExpensive
             
-//            self?.newtorkStatusHandlerDelegate?.passNetworkStatus(status: path.status)
             if path.status == .satisfied {
                 print("We're connected!")
-                // post connected notification
             } else {
                 print("No connection.")
-                // post disconnected notification
             }
             print(path.isExpensive)
         }
@@ -47,8 +44,6 @@ final class NetworkMonitor {
 private typealias CheckNetwork = NetworkMonitor
 extension CheckNetwork {
     func checkForNetworkConnectivity() -> Bool {
-//        self.startMonitoring()
-//        self.stopMonitoring()
         if self.status == .satisfied {
             return true
         } else {

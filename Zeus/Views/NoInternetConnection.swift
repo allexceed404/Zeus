@@ -74,11 +74,6 @@ final class NoInternetConnection: UIViewController {
         noInternetConnectionLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         noInternetConnectionLabel.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         noInternetConnectionLabel.heightAnchor.constraint(equalToConstant: noInternetConnectionLabel.intrinsicContentSize.height).isActive = true
-        
-//        noInternetConnectionLabel.topAnchor.constraint(equalTo: noInternetConnectionImage.bottomAnchor, constant: 8).isActive = true
-//        noInternetConnectionLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-//        noInternetConnectionLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-//        noInternetConnectionLabel.heightAnchor.constraint(equalToConstant: noInternetConnectionLabel.intrinsicContentSize.height).isActive = true
     }
     
     fileprivate func addNoInternetConnectionImageConstraints() {
@@ -86,11 +81,6 @@ final class NoInternetConnection: UIViewController {
         noInternetConnectionImage.centerXAnchor.constraint(equalTo: noInternetConnectionLabel.centerXAnchor).isActive = true
         noInternetConnectionImage.heightAnchor.constraint(equalTo: noInternetConnectionLabel.heightAnchor).isActive = true
         noInternetConnectionImage.widthAnchor.constraint(equalTo: noInternetConnectionLabel.heightAnchor).isActive = true
-        
-//        noInternetConnectionImage.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-//        noInternetConnectionImage.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-//        noInternetConnectionImage.widthAnchor.constraint(equalTo: noInternetConnectionLabel.heightAnchor).isActive = true
-//        noInternetConnectionImage.heightAnchor.constraint(equalTo: noInternetConnectionLabel.heightAnchor).isActive = true
     }
     
     fileprivate func addRetryButtonConstraints() {
@@ -113,13 +103,4 @@ final class NoInternetConnection: UIViewController {
     func setLabelText(toText: String) {
         noInternetConnectionLabel.text = toText
     }
-    
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
 }

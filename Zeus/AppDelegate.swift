@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         
-        let navigationController = NavigationController(rootViewController: TabBarController())
+        let navigationController = UINavigationController(rootViewController: TabBarViewController())
         navigationController.navigationBar.isHidden = true
         window?.rootViewController = navigationController
 
