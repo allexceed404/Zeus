@@ -53,7 +53,7 @@ extension LoadingLocalNews: LocalNewsDelegate {
         let newsViewModel = newsView.getNewsViewModel()
         lastCoordinates = coordinate
         
-        newsView.setTitle(to: String(localized: "top_headlines") + ": " + countryName)
+        newsView.setTitle(to: String(localized: "top_headlines") + ": " + countryName, size: 24)
         if countryCode == nil {
             newsViewModel?.setEndpoint(to: .everything)
         }

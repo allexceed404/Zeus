@@ -43,8 +43,9 @@ final class TopHeadlinesViewController: UIViewController, LoadingNewsWebView, We
         filterButton.addTarget(self, action: #selector(filterButtonAction), for: .touchUpInside)
     }
     
-    func setTitle(to title: String) {
+    func setTitle(to title: String, size: CGFloat) {
         viewTitle.text = title
+        viewTitle.font = .systemFont(ofSize: size, weight: .heavy)
     }
     
     func getNewsViewModel() -> NewsViewModel? {
